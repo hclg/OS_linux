@@ -10,11 +10,21 @@ bootset.s
 
 引导工作就是blos
 
+int main(int argc, char *argv[]) {
 
+}
 
+shell 的程序主体
 
+![image-20200302234551821](D:%5C%E5%B7%A5%E4%BD%9C%E7%BC%93%E5%AD%98%E5%8C%BA%5Cgit%5COS_linux%5Cimage-20200302234551821.png)
 
+图形界面上
 
+硬件输入到系统消息队列
+
+然后应用程序将其取出
+
+系统调用![image-20200302235317842](D:%5C%E5%B7%A5%E4%BD%9C%E7%BC%93%E5%AD%98%E5%8C%BA%5Cgit%5COS_linux%5Cimage-20200302235317842.png)
 
 
 
